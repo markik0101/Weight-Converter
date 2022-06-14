@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+}
+
+body {
+	/*background: linear-gradient(to right, #141e30, #243b55);*/
+	background: #9f9c9c;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#output {
+	font-size: 13px;
+}
+
+span {
+	color: red;
+	white-space: nowrap;
+	font-size: 13px;
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*background: rgba(0, 0, 0, .5);*/
+	background: #1a1717;
+	border-radius: 10px;
+	padding: 60px;
+	box-shadow: rgba(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none; /* чтобы при клике на инпут не появлялась рамка*/
+	background: transparent;
+	color: #fff;
+}
+
+select {
+	outline: none;
+}
+
+button {
+	color: #fff;
+	padding: 10px;
+	border: 1px solid #fff;
+	background: none;
+	cursor: pointer;
+}
